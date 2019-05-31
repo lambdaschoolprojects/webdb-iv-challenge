@@ -12,5 +12,8 @@ const addRecipe = recipe => db('recipes').insert(recipe);
 
 module.exports = {
     getDishes,
-    getRecipes
+    getRecipes,
+    addDish,
+    getDish,
+    addRecipe
 }
